@@ -1,0 +1,1 @@
+﻿package {		public class I {		public var r:int;		public var c:int;		public var thing:Ball;				public function I(row:int, col:int, ball:Ball) {			r = row;			c = col;			thing = ball;		}	}}

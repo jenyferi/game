@@ -1,0 +1,1 @@
+﻿package {	import flash.events.Event;	public class BallEvent extends Event{		public static const ON_EMPTY_BALL:String = "onEmptyBall";		public var ball:Ball = null;		public function BallEvent(type:String, bubbles:Boolean=false, cancelable:Boolean=false):void {			super(type, bubbles, cancelable);		}	}}
